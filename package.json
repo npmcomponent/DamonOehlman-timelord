@@ -1,33 +1,12 @@
 {
-  "name": "timelord",
+  "name": "damonoehlman-timelord",
   "description": "JS duration functions and parser, focused on ISO8601 format",
-  "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
-  "tags": [
+  "version": "0.1.8",
+  "keywords": [
     "time",
     "parsing",
     "duration"
   ],
-  "version": "0.1.8",
   "main": "timelord.js",
-  "engines": {
-    "node": ">= 0.6.x < 0.9.0"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "expect.js": "0.1.x",
-    "underscore": "1.3.x",
-    "mocha": "1.6.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/DamonOehlman/timelord.git"
-  },
-  "bugs": {
-    "url": "http://github.com/DamonOehlman/timelord/issues"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
-  },
-  "contributors": [],
-  "optionalDependencies": {}
+  "dependencies": {}
 }
